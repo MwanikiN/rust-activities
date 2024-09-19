@@ -15,7 +15,7 @@ fn my_tuple() -> (i32, i32) {
 
 fn main() {
     
-    let (x, y) = my_tuple();
+    let (_x, y) = my_tuple();
     if y > 5 {
         println!("y is greater than 5");
     } else if y < 5 {

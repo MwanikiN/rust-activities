@@ -10,6 +10,7 @@
 // * Implement functionality on the box struct to create a new box
 // * Implement functionality on the box struct to print the characteristics
 #[derive(Debug)]
+#[warn(dead_code)]
 enum Color {
     Brown,
     Black, 
